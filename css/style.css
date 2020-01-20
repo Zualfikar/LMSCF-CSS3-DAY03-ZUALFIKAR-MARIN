@@ -1,0 +1,46 @@
+body {
+	background-color: lightblue;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 20px;
+}
+
+header {
+  display: flex;
+}
+
+img {
+	width: 100%;
+}
+
+#logoarea {
+	width: 100px;
+}
+
+#headline {
+	width: 600px;
+	padding: 10px;
+}
+
+.resource {
+  display: flex;
+}
+
+.imgcol {
+	width: 150px;
+	padding: 10px;
+}
+
+.imgcol img {
+	border-radius: 20px;
+}
+
+.descrcol {
+	width: 600px;
+	padding: 5px 0px 0px 20px;
+}
