@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Light and Dark</title>
+
+	<style type="text/css" media="screen">
+		body {
+			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		}
+
+		.transition1 {
+			background-color: black;
+			color: white;
+			padding: 20px;
+			width: 400px;
+			margin: 10px;
+			border-radius: 8px;
+  			-webkit-transition: transform 1s; /* For Safari 3.1 to 6.0 */
+  			transition: transform 1s;
+  			transition-timing-function: ease-in;
+		}
+
+		.transition1:hover {
+			transform: rotate(-360deg);
+		}
+
+		.transition1 h2 {
+			text-align: center;
+			text-shadow: 2px 2px 2px red;
+		}
+
+		.transition2 {
+			background-color: blue;
+			color: white;
+			padding: 20px;
+			width: 400px;
+			margin: 10px;
+			border-radius: 8px;
+  			-webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+  			transition: width 1s;
+  			transition-timing-function: ease-in;
+		}
+
+		.transition2:hover {
+			width: 600px;
+		}
+
+		.transition2 h2 {
+			text-align: center;
+			text-shadow: 2px 2px 2px red;
+		}
+
+		.transition3 {
+			background-color: darkgreen;
+			color: white;
+			padding: 20px;
+			width: 400px;
+			margin: 10px;
+			border-radius: 8px;
+  			-webkit-transition: background-color 2s; /* For Safari 3.1 to 6.0 */
+  			transition: background-color 2s ease-out;
+		}
+
+		.transition3:hover {
+			background-color: red;
+		}
+
+		.transition3 h2 {
+			text-align: center;
+			text-shadow: 2px 2px 2px purple;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div class="transition1">
+
+		<h2>Rotate Transition</h2>
+		<p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+
+	</div>
+
+	<div class="transition2">
+
+		<h2>Width Transition</h2>
+		<p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+
+	</div>
+
+	<div class="transition3">
+
+		<h2>Background Color Transition</h2>
+		<p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+
+	</div>
+
+</body>
+</html>
