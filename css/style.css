@@ -12,6 +12,8 @@ body {
 
 header {
   display: flex;
+  border-bottom: 1px gray solid;
+  padding-bottom: 20px;
 }
 
 img {
@@ -29,6 +31,7 @@ img {
 
 .resource {
   display: flex;
+  margin-top: 20px;
 }
 
 .imgcol {
@@ -40,7 +43,36 @@ img {
 	border-radius: 20px;
 }
 
+.descrcol h2 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
 .descrcol {
 	width: 600px;
 	padding: 5px 0px 0px 20px;
+	height: 200px;
+}
+
+.descrcol ul {
+	list-style: none;
+	display: inline;
+	padding: 0;
+}
+
+.descrcol li a {
+	padding: 10px;
+	background-color: orange;
+	text-decoration: none;
+	border-radius: 8px;
+	color: white;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 30px;
+	text-align: center;
+	height: 30px;
+	border-radius: 8px;
 }
